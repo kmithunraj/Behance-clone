@@ -306,6 +306,34 @@ nav ul li a{
 #sortMenu p:hover{
     color: blue;
 }
+
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    background-color: #fff;
+    border-top: #c7c5c5 1px solid;
+}
+footer button{
+    background-color: transparent;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 9px;
+    padding-right: 20px;
+    padding-left: 24px;
+    border-right: #c7c5c5 1px solid;
+    font-size: 11px;
+    font-weight: 550;
+    color: #585858;
+}
+footer a{
+    font-size: 11px;
+    margin-left: 7px;
+    text-decoration: none;
+    font-weight: 590;
+    color: #585858;
+}
 #toggleMenu{
     display: none;
 }
@@ -559,4 +587,15 @@ nav ul li a{
         display: none;
     }
 
+}
+@media screen and (max-width: 1024px){
+    footer{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px){
+    #lowerHeader{
+        display: none;
+    }
 }
